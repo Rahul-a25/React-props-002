@@ -1,0 +1,120 @@
+.main{
+    box-shadow: 0px 0px 60px rgb(249, 24, 24);
+    width: 830px;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+    border-radius: 17px;
+    /* background:url(https://wallpapercave.com/wp/klLMJUx.jpg); */
+    background-size: 100%;
+    
+
+}
+.left-main{
+    background:linear-gradient(to right ,rgb(22, 22, 22,1) 85%,rgba(0, 0, 0, 0));
+    width: 800px;
+    
+    
+    
+}
+
+.upper {
+    display: flex;
+     width: 400px;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+.upper img{
+    margin-top: 20px;
+}
+.brightwala{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.brightwala h1,p{
+    color: white;
+}
+.brightwala .pwala{
+    margin-top: -25px;
+}
+.brightwala .gap{
+    margin-top: -10px;
+    font-family: 900;
+    background: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.brightwala button:hover{
+    color: black;
+    background-color: white;
+}
+.btnwala {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.btnwala button{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    border: 2px solid gainsboro;
+}
+.btnwala p{
+    margin-left: 15px;
+}
+.middle{
+    width: 400px;
+    text-align: justify;
+    margin-left: 15px;
+}
+ 
+/* lower wala part */
+.lower {
+    display: flex;
+    width: 400px;
+    margin-top: 55px;
+    
+    
+}
+
+.icon {
+    color: gray;
+    margin: 25px;
+    font-size: 25px;
+}
+.icon:hover{
+    color: white;
+    cursor: pointer;
+}
+.share{
+    margin-top: 25px;
+}
+.right-main {
+    /* background:  url("https://filmfare.wwmindia.com/thumb/content/2022/jul/thorloveandthunder51657084424.jpg?width=1200&height=1200 ") ;
+    width: 400px;
+    background-size: 394px;
+    background-repeat: no-repeat;
+    background-position: 8px; */
+    width: 400px;
+
+
+}
+.right-main img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+
+    
+}
+
+
+/* .right-main img{
+    width: 380px;
+    height: 400px;
+} */
